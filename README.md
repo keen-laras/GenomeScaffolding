@@ -41,6 +41,6 @@ Using [JuiceBox](https://github.com/aidenlab/Juicebox)
 ### 3. Run _Juicer post_ after HiC visualization
 After exporting your edited assembly from Juicebox, run this command
 
-`/home/stereonote/yahs/juicer post -o {output} {juicbox_output}.review.assembly {juicer_tools_output}.liftover.agp /path/to/{input}.fa`
+`/home/stereonote/yahs/juicer post -o {output} {juicebox_output}.review.assembly {juicer_tools_output}.liftover.agp /path/to/{input}.fa`
 
 ### 4. Output analysis
