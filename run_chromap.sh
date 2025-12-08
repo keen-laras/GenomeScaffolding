@@ -47,4 +47,13 @@ $SAMTOOLS faidx $CONTIGS
     echo "=== Output written to ${OUT}.bam ==="
 done
 
+echo "Convert bed file from Bam file for downstream yahs analysis"
+
+/share/app/samtools/1.11/bin/samtools view -bh -F 0xF0C -q 0 ${OUT}.bam | \
+/share/app/bedtools/2.29.2/bin/bedtools bamtobed | \
+  awk -v OFS='\t' '{$4=substr($4,1,length($4)-2); print}' \
+  > {output}_chromap.bed
+
+echo "Bed file has been generated for downstream yahs analysis"
+
 echo "=== Processing Completed ==="
