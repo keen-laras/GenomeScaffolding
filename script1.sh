@@ -5,9 +5,9 @@ echo "[START] Pore-C scaffolding + Juicebox"
 echo "Start time: $(date)"
 
 # ========================== PARAMETER ==========================
-REFERENCE_GENOME="polished.fasta"
-BED_FILE="fixed.bed"  
-OUTPUT_PREFIX="output"
+REFERENCE_GENOME="{input}.fasta"
+BED_FILE="{bowtie_result}.bed"  
+OUTPUT_PREFIX="{output}"
 export _JAVA_OPTIONS="-Xmx32G"
 
 # SOFTWARE
