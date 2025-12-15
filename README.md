@@ -1,7 +1,7 @@
-# NextPolish (Version 1.4.1) Genome Assembly
+# YaHS, Juicer & Juicer_tools Genome Scaffolding
 
 Hello, everyone!
-This is a guide to scaffold your contig-level assembly using _YaHS  and Juicer_
+This is a guide to scaffold your contig-level assembly using _YaHS_ and _Juicer_
 
 The tutorial is built for [DCS Cloud](https://cloud.stomics.tech/) users
 
